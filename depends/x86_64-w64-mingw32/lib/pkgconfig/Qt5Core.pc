@@ -1,0 +1,15 @@
+prefix=/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+host_bins=${prefix}/native/bin
+qt_config=release c++11 concurrent dbus no-qml-debug release_tools static stl
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.9.7
+Libs: -L${libdir} -lQt5Cored 
+Libs.private: -lmpr -lversion -lws2_32 -lkernel32 -luser32 -lshell32 -luuid -lole32 -ladvapi32 -lwinmm -lz -L/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/lib /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/lib/libqtpcre2d.a 
+Cflags: -I${includedir}/QtCore 
+

@@ -1,0 +1,14 @@
+prefix=/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Charts
+Description: Qt Charts module
+Version: 5.9.7
+Libs: -L${libdir} -lQt5Chartsd 
+Libs.private: -L/home/dad/Downloads/NestEGG/depends/work/build/x86_64-w64-mingw32/qt/5.9.7-36f861f49d3/qtbase/lib /home/dad/Downloads/NestEGG/depends/work/build/x86_64-w64-mingw32/qt/5.9.7-36f861f49d3/qtbase/lib/libQt5Widgetsd.a -luxtheme -ldwmapi /home/dad/Downloads/NestEGG/depends/work/build/x86_64-w64-mingw32/qt/5.9.7-36f861f49d3/qtbase/lib/libQt5Guid.a -lgdi32 -lcomdlg32 -loleaut32 -limm32 /home/dad/Downloads/NestEGG/depends/work/build/x86_64-w64-mingw32/qt/5.9.7-36f861f49d3/qtbase/lib/libqtlibpngd.a /home/dad/Downloads/NestEGG/depends/work/build/x86_64-w64-mingw32/qt/5.9.7-36f861f49d3/qtbase/lib/libqtharfbuzzd.a /home/dad/Downloads/NestEGG/depends/work/build/x86_64-w64-mingw32/qt/5.9.7-36f861f49d3/qtbase/lib/libQt5Cored.a -lmpr -lversion -lws2_32 -lkernel32 -luser32 -lshell32 -luuid -lole32 -ladvapi32 -lwinmm -lz /home/dad/Downloads/NestEGG/depends/work/build/x86_64-w64-mingw32/qt/5.9.7-36f861f49d3/qtbase/lib/libqtpcre2d.a  
+Cflags: -I${includedir}/QtCharts 
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

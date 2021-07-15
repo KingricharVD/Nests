@@ -1,0 +1,10 @@
+rustc
+cargo
+rls-preview
+clippy-preview
+miri-preview
+rustfmt-preview
+llvm-tools-preview
+rust-analysis-x86_64-unknown-linux-gnu
+rust-std-x86_64-unknown-linux-gnu
+rust-std-x86_64-pc-windows-gnu

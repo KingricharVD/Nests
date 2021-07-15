@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_empty_zegg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <style type="text/css">
+            .cls-1{fill:#d6d6d6}.cls-2{fill:#666}.cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="Group_9086" data-name="Group 9086">
+        <path id="Path_19031" d="M50 26a24 24 0 1 0 24 24 24 24 0 0 0-24-24zm0 42a18 18 0 1 1 18-18 18 18 0 0 1-18 18z" class="cls-1" data-name="Path 19031"/>
+        <g id="Group_9085" data-name="Group 9085">
+            <g id="Group_9083" data-name="Group 9083">
+                <path id="Path_19032" d="M50 31a19 19 0 1 0 19 19 19.021 19.021 0 0 0-19-19zm0 36a17 17 0 1 1 17-17 17.019 17.019 0 0 1-17 17z" class="cls-2" data-name="Path 19032"/>
+                <path id="Rectangle_4749" d="M0 0h2v4H0z" class="cls-2" data-name="Rectangle 4749" transform="translate(83 56)"/>
+                <path id="Rectangle_4750" d="M0 0h2v8H0z" class="cls-2" data-name="Rectangle 4750" transform="translate(83 44)"/>
+                <path id="Rectangle_4751" d="M0 0h2v8H0z" class="cls-2" data-name="Rectangle 4751" transform="translate(15 48)"/>
+                <path id="Rectangle_4752" d="M0 0h2v4H0z" class="cls-2" data-name="Rectangle 4752" transform="translate(15 40)"/>
+                <path id="Path_19033" d="M95.162 71H85v-7h-2v9h7.838L76 90.456 61.162 73H68v-2h-4.461a24.989 24.989 0 0 0-22.4-44.374L24 6.456 4.838 29H15v7h2v-9H9.162L24 9.544 38.838 27H32v2h4.461a24.989 24.989 0 0 0 22.4 44.374L76 93.544zM27 50a23 23 0 1 1 23 23 23.026 23.026 0 0 1-23-23z" class="cls-2" data-name="Path 19033"/>
+            </g>
+        </g>
+    </g>
+    <path id="Rectangle_4753" d="M0 0h100v100H0z" class="cls-3" data-name="Rectangle 4753"/>
+</svg>

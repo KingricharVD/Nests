@@ -1,0 +1,11 @@
+[package]
+name = "crypto_api"
+version = "0.2.2"
+edition = "2018"
+authors = ["Keziah Biermann <development@kizzycode.de>"]
+description = "Defines a general purpose API for various cryptographic primitives"
+license = "BSD-2-Clause OR MIT"
+repository = "https://github.com/KizzyCode/crypto_api"
+readme = "README.md"
+
+[dependencies]

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=NestEgg Core
+Comment=NestEgg P2P Cryptocurrency
+Comment[fr]=NestEgg, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=NestEgg, eşten eşe kriptografik sanal para birimi
+Exec=pivx-qt %u
+Terminal=false
+Type=Application
+Icon=pivx128
+MimeType=x-scheme-handler/pivx;
+Categories=Office;Finance;
+StartupWMClass=Pivx-qt
