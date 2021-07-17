@@ -1,27 +1,3 @@
-## PGP keys of Gitian builders and Developers
-
-The file `keys.txt` contains fingerprints of the public keys of Gitian builders
-and active developers.
-
-The associated keys are mainly used to sign git commits or the build results
-of Gitian builds.
-
-The most recent version of each pgp key can be found on most pgp key servers.
-
-Fetch the latest version from the key server to see if any key was revoked in
-the meantime.
-To fetch the latest version of all pgp keys in your gpg homedir,
-
-```sh
-gpg --refresh-keys
-```
-
-To fetch keys of Gitian builders and active developers, feed the list of
-fingerprints of the primary keys into gpg:
-
-```sh
-while read fingerprint keyholder_name; do gpg --keyserver hkp://subset.pool.sks-keyservers.net --recv-keys ${fingerprint}; done < ./keys.txt
-```
-
-Add your key to the list if you provided Gitian signatures for two major or
-minor releases of NestEgg Core.
+version https://git-lfs.github.com/spec/v1
+oid sha256:062e415b6cc8a4520896a441c0f9665c876b5b6a1878687257d13f6c3f3c6b7e
+size 891

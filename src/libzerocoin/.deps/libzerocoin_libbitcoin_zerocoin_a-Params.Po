@@ -1,7 +1,7 @@
 libzerocoin/libzerocoin_libbitcoin_zerocoin_a-Params.o: \
  libzerocoin/Params.cpp libzerocoin/Params.h libzerocoin/bignum.h \
  config/pivx-config.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/gmp.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/gmp.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iosfwd \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -172,7 +172,7 @@ libzerocoin/bignum.h:
 
 config/pivx-config.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/gmp.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/gmp.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/iosfwd:
 

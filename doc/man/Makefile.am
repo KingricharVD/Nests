@@ -1,13 +1,3 @@
-dist_man1_MANS=
-
-if BUILD_BITCOIND
-  dist_man1_MANS+=nesteggd.1
-endif
-
-if ENABLE_QT
-  dist_man1_MANS+=nestegg-qt.1
-endif
-
-if BUILD_BITCOIN_UTILS
-  dist_man1_MANS+=nestegg-cli.1 nestegg-tx.1
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:47df15b5e898d0828cd2f29371a8520ca792643319486cefb2f10713cf5af1e9
+size 196

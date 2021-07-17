@@ -1,9 +1,3 @@
-#!/bin/sh
-set -e
-srcdir="$(dirname $0)"
-cd "$srcdir"
-if [ -z ${LIBTOOLIZE} ] && GLIBTOOLIZE="`which glibtoolize 2>/dev/null`"; then
-  LIBTOOLIZE="${GLIBTOOLIZE}"
-  export LIBTOOLIZE
-fi
-autoreconf --install --force
+version https://git-lfs.github.com/spec/v1
+oid sha256:db3957282a75b145e05f0a00b0fda93ae547d585dfa2be4a467d1339470a8d4e
+size 214

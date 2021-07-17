@@ -1,19 +1,3 @@
-# Seeds
-
-Utility to generate the seeds.txt list that is compiled into the client
-(see [src/chainparamsseeds.h](/src/chainparamsseeds.h) and other utilities in [contrib/seeds](/contrib/seeds)).
-
-Be sure to update `PATTERN_AGENT` in `makeseeds.py` to include the current version,
-and remove old versions as necessary.
-
-The seeds compiled into the release are created from fuzzbawls' DNS seed data, like this:
-
-    curl -s http://seeder.fuzzbawls.pw/pivx-mainnet.txt > seeds_main.txt
-    python3 makeseeds.py < seeds_main.txt > nodes_main.txt
-    python3 generate-seeds.py . > ../../src/chainparamsseeds.h
-
-## Dependencies
-
-Ubuntu:
-
-    sudo apt-get install python3-dnspython
+version https://git-lfs.github.com/spec/v1
+oid sha256:561d0301d3d7c26a14e0949af06d5b80785e0a5a02a221b3d8b33cde667059dd
+size 673

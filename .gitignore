@@ -1,0 +1,5 @@
+
+*.gz
+*.gz
+depends/built/x86_64-w64-mingw32/rust/rust-1.42.0-b86a01c45cf.tar.gz.hash
+*.gz

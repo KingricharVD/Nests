@@ -1,2 +1,21 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+configure.ac filter=lfs diff=lfs merge=lfs -text
+libbitcoinconsensus.pc.in filter=lfs diff=lfs merge=lfs -text
+Makefile.in filter=lfs diff=lfs merge=lfs -text
+CMakeLists.txt filter=lfs diff=lfs merge=lfs -text
+CONTRIBUTING.md filter=lfs diff=lfs merge=lfs -text
+Makefile.am filter=lfs diff=lfs merge=lfs -text
+MN_Script.sh filter=lfs diff=lfs merge=lfs -text
+autom4te.cache filter=lfs diff=lfs merge=lfs -text
+build_macos.sh filter=lfs diff=lfs merge=lfs -text
+build_windows.sh filter=lfs diff=lfs merge=lfs -text
+Cargo.lock filter=lfs diff=lfs merge=lfs -text
+config.status filter=lfs diff=lfs merge=lfs -text
+aclocal.m4 filter=lfs diff=lfs merge=lfs -text
+autogen.sh filter=lfs diff=lfs merge=lfs -text
+Cargo.toml filter=lfs diff=lfs merge=lfs -text
+config.log filter=lfs diff=lfs merge=lfs -text
+build_linux.sh filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+/ filter=lfs diff=lfs merge=lfs -text

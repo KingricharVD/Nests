@@ -159,67 +159,67 @@ qt/qt_libbitcoinqt_a-moc_optionsmodel.o: qt/moc_optionsmodel.cpp \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/istream.tcc \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stream_iterator.h \
  sporkid.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/QAbstractListModel \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qabstractitemmodel.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qvariant.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qatomic.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qglobal.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/QAbstractListModel \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qabstractitemmodel.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qvariant.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qatomic.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qglobal.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstddef \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qconfig.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qtcore-config.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qsystemdetection.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qprocessordetection.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qcompilerdetection.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qtypeinfo.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qsysinfo.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qlogging.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qflags.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qbasicatomic.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qatomic_cxx11.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qgenericatomic.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qconfig.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qtcore-config.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qsystemdetection.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qprocessordetection.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qcompilerdetection.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qtypeinfo.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qsysinfo.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qlogging.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qflags.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qbasicatomic.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qatomic_cxx11.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qgenericatomic.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/atomic \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_base.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_lockfree_defines.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qglobalstatic.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qnumeric.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qversiontagging.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qbytearray.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qrefcount.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qnamespace.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qarraydata.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qglobalstatic.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qnumeric.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qversiontagging.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qbytearray.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qrefcount.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qnamespace.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qarraydata.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stdarg.h \
  /usr/share/mingw-w64/include/stdarg.h \
  /usr/share/mingw-w64/include/_mingw_stdarg.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qlist.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qalgorithms.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qiterator.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qhashfunctions.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qchar.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qpair.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qlist.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qalgorithms.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qiterator.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qhashfunctions.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qchar.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qpair.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/numeric \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_numeric.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/list \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/stl_list.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocated_ptr.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/list.tcc \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qbytearraylist.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qstringlist.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qregexp.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qstring.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qstringmatcher.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qmetatype.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qvarlengtharray.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qcontainerfwd.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qobjectdefs.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qobjectdefs_impl.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qmap.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qbytearraylist.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qstringlist.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qregexp.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qstring.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qstringmatcher.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qmetatype.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qvarlengtharray.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qcontainerfwd.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qobjectdefs.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qobjectdefs_impl.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qmap.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/functional \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/std_function.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/refwrap.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qhash.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qobject.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qscopedpointer.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qobject_impl.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qhash.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qobject.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qscopedpointer.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qobject_impl.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/chrono \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ratio \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/ctime \
@@ -227,9 +227,9 @@ qt/qt_libbitcoinqt_a-moc_optionsmodel.o: qt/moc_optionsmodel.cpp \
  /usr/share/mingw-w64/include/_timeval.h \
  /usr/share/mingw-w64/include/pthread_time.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/parse_numbers.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qvector.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/QSettings \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qsettings.h
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qvector.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/QSettings \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qsettings.h
 
 qt/optionsmodel.h:
 
@@ -563,41 +563,41 @@ prevector.h:
 
 sporkid.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/QAbstractListModel:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/QAbstractListModel:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qabstractitemmodel.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qabstractitemmodel.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qvariant.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qvariant.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qatomic.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qatomic.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qglobal.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qglobal.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/cstddef:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qconfig.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qconfig.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qtcore-config.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qtcore-config.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qsystemdetection.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qsystemdetection.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qprocessordetection.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qprocessordetection.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qcompilerdetection.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qcompilerdetection.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qtypeinfo.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qtypeinfo.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qsysinfo.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qsysinfo.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qlogging.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qlogging.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qflags.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qflags.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qbasicatomic.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qbasicatomic.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qatomic_cxx11.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qatomic_cxx11.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qgenericatomic.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qgenericatomic.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/atomic:
 
@@ -605,19 +605,19 @@ sporkid.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/atomic_lockfree_defines.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qglobalstatic.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qglobalstatic.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qnumeric.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qnumeric.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qversiontagging.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qversiontagging.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qbytearray.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qbytearray.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qrefcount.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qrefcount.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qnamespace.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qnamespace.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qarraydata.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qarraydata.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/stdarg.h:
 
@@ -625,17 +625,17 @@ sporkid.h:
 
 /usr/share/mingw-w64/include/_mingw_stdarg.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qlist.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qlist.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qalgorithms.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qalgorithms.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qiterator.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qiterator.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qhashfunctions.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qhashfunctions.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qchar.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qchar.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qpair.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qpair.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/numeric:
 
@@ -649,27 +649,27 @@ sporkid.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/list.tcc:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qbytearraylist.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qbytearraylist.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qstringlist.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qstringlist.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qregexp.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qregexp.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qstring.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qstring.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qstringmatcher.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qstringmatcher.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qmetatype.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qmetatype.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qvarlengtharray.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qvarlengtharray.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qcontainerfwd.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qcontainerfwd.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qobjectdefs.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qobjectdefs.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qobjectdefs_impl.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qobjectdefs_impl.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qmap.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qmap.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/functional:
 
@@ -677,13 +677,13 @@ sporkid.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/refwrap.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qhash.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qhash.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qobject.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qobject.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qscopedpointer.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qscopedpointer.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qobject_impl.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qobject_impl.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/chrono:
 
@@ -699,8 +699,8 @@ sporkid.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/parse_numbers.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qvector.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qvector.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/QSettings:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/QSettings:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/QtCore/qsettings.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore/qsettings.h:

@@ -1,21 +1,3 @@
-// Copyright (c) 2019 The PIVX developers
-// Copyright (c) 2020-2021 The NestEgg Core Developers
-// Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-#ifndef PIVX_PAIRRESULT_H
-#define PIVX_PAIRRESULT_H
-
-
-class PairResult {
-
-public:
-    PairResult(bool res):result(res){}
-    PairResult(bool res, std::string* statusStr):result(res), status(statusStr){}
-
-    bool result;
-    std::string* status = nullptr;
-};
-
-
-#endif //PIVX_PAIRRESULT_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fcf24f3962a32deb852ac28d6f1b1874b15c53768296a947ca653a24baced1b
+size 525

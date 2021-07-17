@@ -1,14 +1,3 @@
-RPC Tools
----------------------
-
-### [RPCAuth](/share/rpcauth) ###
-
-Create login credentials for a JSON-RPC user.
-
-Usage:
-
-    ./rpcauth.py <username>
-
-in which case the script will generate a password. To specify a custom password do:
-
-    ./rpcauth.py <username> <password>
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8ca4c9f28256bd8f4177527130abfc4ac2cc3141f199ce4881fdaf4f72f1301
+size 276

@@ -9,11 +9,11 @@ SetCompressor /SOLID lzma
 !define URL https://www.pivx.org
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/dad/Downloads/NestEGG/share/pixmaps/pivx.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/dad/Downloads/NestEGG/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/home/dad/Downloads/Nests/share/pixmaps/pivx.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/dad/Downloads/Nests/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/dad/Downloads/NestEGG/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/home/dad/Downloads/Nests/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
@@ -21,7 +21,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "NestEgg Core"
 !define MUI_FINISHPAGE_RUN $INSTDIR\nestegg-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/dad/Downloads/NestEGG/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/dad/Downloads/Nests/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -47,7 +47,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/dad/Downloads/NestEGG/nestegg-1.5.0-win64-setup.exe
+OutFile /home/dad/Downloads/Nests/nestegg-1.5.0-win64-setup.exe
 !if "64" == "64"
 InstallDir $PROGRAMFILES64\Pivx
 !else
@@ -72,14 +72,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/dad/Downloads/NestEGG/release/nestegg-qt.exe
-    File /oname=COPYING.txt /home/dad/Downloads/NestEGG/COPYING
-    File /oname=readme.txt /home/dad/Downloads/NestEGG/doc/README_windows.txt
+    File /home/dad/Downloads/Nests/release/nestegg-qt.exe
+    File /oname=COPYING.txt /home/dad/Downloads/Nests/COPYING
+    File /oname=readme.txt /home/dad/Downloads/Nests/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/dad/Downloads/NestEGG/release/nesteggd.exe
-    File /home/dad/Downloads/NestEGG/release/nestegg-cli.exe
+    File /home/dad/Downloads/Nests/release/nesteggd.exe
+    File /home/dad/Downloads/Nests/release/nestegg-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /home/dad/Downloads/NestEGG/doc\*.*
+    File /r /home/dad/Downloads/Nests/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 SectionEnd

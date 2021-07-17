@@ -1,23 +1,3 @@
-// Copyright (c) 2017-2020 The Bitcoin Core developers
-// Copyright (c) 2020 The PIVX developers
-// Copyright (c) 2020-2021 The NestEgg Core Developers
-// Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-#include "fs.h"
-
-#include <boost/filesystem.hpp>
-
-namespace fsbridge {
-
-FILE *fopen(const fs::path& p, const char *mode)
-{
-    return ::fopen(p.string().c_str(), mode);
-}
-
-FILE *freopen(const fs::path& p, const char *mode, FILE *stream)
-{
-    return ::freopen(p.string().c_str(), mode, stream);
-}
-
-} // fsbridge
+version https://git-lfs.github.com/spec/v1
+oid sha256:32645a7fcc698a3648d47af27ff76358ca63bf752faab6473fb6eaa2295e188a
+size 608

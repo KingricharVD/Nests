@@ -179,87 +179,87 @@ libbitcoin_common_a-hash.o: hash.cpp hash.h crypto/ripemd160.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/allocator.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/codecvt.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/openssl/sha.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/openssl/e_os2.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/openssl/opensslconf.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/openssl/sha.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/openssl/e_os2.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/openssl/opensslconf.h \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/sstream \
  /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/sstream.tcc \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/version.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/export.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/core.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_aes256gcm.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_chacha20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_xchacha20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512256.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha512.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha256.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha256.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512256.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xsalsa20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xsalsa20.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xsalsa20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_hsalsa20.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_hchacha20.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa20.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa2012.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa208.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash_blake2b.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash_blake2b.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha256.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha512.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf_blake2b.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf_blake2b.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kx.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth_poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth_poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2i.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2id.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2i.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult_curve25519.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult_curve25519.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xsalsa20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xsalsa20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretstream_xchacha20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_xchacha20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_chacha20.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash_siphash24.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash_siphash24.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign_ed25519.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign_ed25519.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_chacha20.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa20.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xsalsa20.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_16.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_32.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_64.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes_salsa20_random.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes_sysrandom.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/runtime.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/utils.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xchacha20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xchacha20.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xchacha20poly1305.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_scryptsalsa208sha256.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa2012.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa208.h \
- /home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xchacha20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/version.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/export.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/core.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_aes256gcm.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_chacha20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_xchacha20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512256.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha512.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha256.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha256.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512256.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xsalsa20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xsalsa20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xsalsa20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_hsalsa20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_hchacha20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa2012.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa208.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash_blake2b.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash_blake2b.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha256.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha512.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf_blake2b.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf_blake2b.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kx.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth_poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth_poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2i.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2id.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2i.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult_curve25519.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult_curve25519.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xsalsa20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xsalsa20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretstream_xchacha20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_xchacha20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_chacha20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash_siphash24.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash_siphash24.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign_ed25519.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign_ed25519.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_chacha20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xsalsa20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_16.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_32.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_64.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes_salsa20_random.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes_sysrandom.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/runtime.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/utils.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xchacha20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xchacha20.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xchacha20poly1305.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_scryptsalsa208sha256.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa2012.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa208.h \
+ /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xchacha20.h \
  crypto/common.h compat/endian.h crypto/hmac_sha512.h crypto/sha512.h \
  crypto/scrypt.h
 
@@ -657,167 +657,167 @@ crypto/sha512.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/unique_ptr.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/openssl/sha.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/openssl/sha.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/openssl/e_os2.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/openssl/e_os2.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/openssl/opensslconf.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/openssl/opensslconf.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/sstream:
 
 /usr/lib/gcc/x86_64-w64-mingw32/7.3-posix/include/c++/bits/sstream.tcc:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/version.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/version.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/export.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/export.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/core.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/core.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_aes256gcm.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_aes256gcm.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_chacha20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_chacha20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_xchacha20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_xchacha20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512256.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512256.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha512.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha512.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha256.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha256.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha256.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha256.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512256.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_auth_hmacsha512256.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xsalsa20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xsalsa20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xsalsa20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xsalsa20.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xsalsa20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xsalsa20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_hsalsa20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_hsalsa20.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_hchacha20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_hchacha20.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa20.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa2012.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa2012.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa208.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_core_salsa208.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash_blake2b.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash_blake2b.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash_blake2b.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_generichash_blake2b.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha256.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha256.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha512.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_hash_sha512.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf_blake2b.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf_blake2b.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf_blake2b.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kdf_blake2b.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kx.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_kx.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth_poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth_poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth_poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_onetimeauth_poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2i.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2i.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2id.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2id.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2i.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_argon2i.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult_curve25519.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult_curve25519.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult_curve25519.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_scalarmult_curve25519.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xsalsa20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xsalsa20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xsalsa20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xsalsa20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretstream_xchacha20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretstream_xchacha20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_xchacha20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_aead_xchacha20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_chacha20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_chacha20.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash_siphash24.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash_siphash24.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash_siphash24.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_shorthash_siphash24.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign_ed25519.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign_ed25519.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign_ed25519.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_sign_ed25519.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_chacha20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_chacha20.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa20.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xsalsa20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xsalsa20.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_16.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_16.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_32.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_32.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_64.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_verify_64.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes_salsa20_random.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes_salsa20_random.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes_sysrandom.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/randombytes_sysrandom.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/runtime.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/runtime.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/utils.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/utils.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xchacha20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_box_curve25519xchacha20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xchacha20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xchacha20.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xchacha20poly1305.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_secretbox_xchacha20poly1305.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_scryptsalsa208sha256.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_pwhash_scryptsalsa208sha256.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa2012.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa2012.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa208.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_salsa208.h:
 
-/home/dad/Downloads/NestEGG/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xchacha20.h:
+/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/sodium/crypto_stream_xchacha20.h:
 
 crypto/common.h:
 

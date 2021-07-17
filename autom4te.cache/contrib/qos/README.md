@@ -1,5 +1,3 @@
-### Qos ###
-
-This is a Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the Bitcoin network. It limits outbound TCP traffic with a source or destination port of 20434, but not if the destination IP is within a LAN (defined as 192.168.x.x).
-
-This means one can have an always-on nesteggd instance running, and another local nesteggd/nestegg-qt instance which connects to this node and receives blocks from it.
+version https://git-lfs.github.com/spec/v1
+oid sha256:06a4213ffc83912eb26483376ebbc128c93f398ef69806619be57cce87b0a8d7
+size 449

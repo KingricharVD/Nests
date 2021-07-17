@@ -1,18 +1,3 @@
-// Copyright (c) 2017 The Bitcoin Core developers
-// Copyright (c) 2020-2021 The NestEgg Core Developers
-// Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-#ifndef BITCOIN_OPTIONAL_H
-#define BITCOIN_OPTIONAL_H
-
-#include <boost/optional.hpp>
-
-//! Substitute for C++17 std::optional
-template <typename T>
-using Optional = boost::optional<T>;
-
-//! Substitute for C++17 std::nullopt
-static auto& nullopt = boost::none;
-
-#endif // BITCOIN_OPTIONAL_H
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffed3a513459507725e157cff7f4f5dd7c23764eb3497b490abaf038fec89e79
+size 534
