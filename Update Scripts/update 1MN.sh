@@ -1,12 +1,12 @@
 #/bin/bash
 
 cd ~
-cd /usr/local/bin
-./hcc-cli stop
-rm -rf hccd hcc-cli hcc-tx
-wget https://github.com/Human-Charity-Coin/HCC-wallet/releases/download/v1.2.1/hcclin1.2.1.tar.gz
-tar -xzf hcclin1.2.1.tar.gz
-rm -rf hcclin1.2.1.tar.gz
-./hccd -daemon -resync
+cd /root/
+./nestegg-cli stop
+rm -rf nesteggd nestegg-cli nestegg-tx
+wget https://github.com/SirElven8/NestEGG/releases/1.5.0.0/nestegglin1.5.0.0.tar.gz
+tar -xzf nestegglin1.5.0.0.tar.gz
+rm -rf nestegglin1.5.0.0.tar.gz
+./nesteggd -daemon -resync
 sleep 30
-./hcc-cli getinfo
+./nestegg-cli getinfo
