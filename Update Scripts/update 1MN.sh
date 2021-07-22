@@ -1,10 +1,14 @@
 #/bin/bash
 
 cd ~
-cd /root/nestegg/./nestegg
+cd /usr/local/bin/
 ./nestegg-cli stop
 rm -rf nesteggd nestegg-cli nestegg-tx
-wget https://github.com/SirElven8/NestEGG/releases/1.5.0.0/nestegglin1.5.0.0.tar.gz
+cd /root/
+cp nestegglin1.5.0.0.tar.gz /usr/local/bin/
+tar -xzf nestegglin1.5.0.0.tar.gz
+cd /root/.nestegg
+cp nestegglin1.5.0.0.tar.gz
 tar -xzf nestegglin1.5.0.0.tar.gz
 rm -rf nestegglin1.5.0.0.tar.gz
 ./nesteggd -daemon -resync
