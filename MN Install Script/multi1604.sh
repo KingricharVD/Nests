@@ -43,6 +43,11 @@ sudo apt-get -y install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools
 sudo apt-get -y install libqrencode-dev bsdmainutils unzip
 #sudo apt install git
 cd ~
+cd /usr/local/bin/
+wget https://github.com/SirElven8/NestEGG/releases/1.5.0.0/nestegglin1.5.0.0.tar.gz
+tar -xzf nestegglin1.5.0.0.tar.gz
+rm -rf nestegglin1.5.0.0.tar.gz
+cd ~
 sudo mkdir /root/nestegg
 cd /root/nestegg
 wget https://github.com/SirElven8/NestEGG/releases/1.5.0.0/nestegglin1.5.0.0.tar.gz
@@ -65,7 +70,7 @@ echo "masternodeprivkey=$privkey" >> /root/nestegg/.nestegg/nestegg.conf
 
 fi
 echo "Syncing first node, please wait...";
-hccd -datadir=/root/nestegg/.nestegg -daemon
+nesteggd -datadir=/root/nestegg/.nestegg -daemon
 sleep 10
 until nestegg-cli -datadir=/root/nestegg/.nestegg mnsync status | grep -m 1 '"IsBlockchainSynced": true,'; do sleep 1 ; done > /dev/null 2>&1
 echo -e ${GREEN}"First node is fully synced. You 1st masternode is running!"${NC}

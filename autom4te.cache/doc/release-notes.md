@@ -1,8 +1,8 @@
-NestEgg Core version *1.4.0* is now available from:  <https://github.com/eggcoin-com/EGG/releases>
+NestEgg Core version *1.5.0* is now available from:  <https://github.com/SirElven8/NestEGG/releases/>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/eggcoin-com/EGG/issues>
+Please report bugs using the issue tracker at github: <https://github.com/eggcoin-com/Nest/issues>
 
 
 Recommended Update
@@ -46,7 +46,7 @@ Version 4.3.0 contains a number of significant performance improvements, which m
   - has more predictable memory usage;
   - uses simpler code;
   - is adaptable to various future cache flushing strategies.
-  
+
   As a result, validating the blockchain during Initial Block Download (IBD) and reindex is ~30-40% faster, uses 10-20% less memory, and flushes to disk far less frequently. The only downside is that the on-disk database is 15% larger. During the conversion from the previous format a few extra gigabytes may be used.
 
 - LevelDB has been upgraded to version 1.22 ([See PR 1738](https://github.com/PIVX-Project/PIVX/pull/1738)). This version contains hardware acceleration for CRC on architectures supporting SSE 4.2. As a result, synchronization and block validation are now faster.
@@ -54,7 +54,7 @@ Version 4.3.0 contains a number of significant performance improvements, which m
 Removal of Priority Estimation
 ------------------------------
 
-Estimation of "priority" needed for a transaction to be included within a target number of blocks has been removed.  The rpc calls are deprecated and will either return `-1` or `1e24` appropriately. 
+Estimation of "priority" needed for a transaction to be included within a target number of blocks has been removed.  The rpc calls are deprecated and will either return `-1` or `1e24` appropriately.
 
 The format for fee_estimates.dat has also changed to no longer save these priority estimates. It will automatically be converted to the new format which is not readable by prior versions of the software.
 
@@ -85,7 +85,7 @@ RPC Changes
   - Output is now a JSON object with 2 fields: `feerate` and `blocks`
 - The `getrawmempool` RPC command now includes an additional output field:
   - `modifiedfee` (numeric) transaction fee with fee deltas used for mining priority.::ZZZZexit
-  
+
 
 ### Removed commands
 

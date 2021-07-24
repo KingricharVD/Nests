@@ -42,6 +42,11 @@ sudo apt-get -y install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools
 sudo apt-get -y install libqrencode-dev bsdmainutils unzip
 #sudo apt install git
 cd ~
+cd /usr/local/bin/
+wget https://github.com/SirElven8/NestEGG/releases/1.5.0.0/nestegglin1.5.0.0.tar.gz
+tar -xzf nestegglin1.5.0.0.tar.gz
+rm -rf nestegglin1.5.0.0.tar.gz
+cd ~
 sudo mkdir /root/nestegg
 cd /root/nestegg
 wget https://github.com/SirElven8/NestEGG/releases/1.5.0.0/nestegglin1.5.0.0.tar.gz
