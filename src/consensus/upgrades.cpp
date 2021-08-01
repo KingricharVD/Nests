@@ -43,17 +43,25 @@ const struct NUInfo NetworkUpgradeInfo[Consensus::MAX_NETWORK_UPGRADES] = {
                 /*.strInfo =*/ "activation of zerocoin public spends (spend v3)",
         },
         {
-                /*.strName =*/ "PIVX_v3.4",
-                /*.strInfo =*/ "new 256-bit stake modifier - start block v6",
-        },
-        {
-                /*.strName =*/ "PIVX_v4.0",
-                /*.strInfo =*/ "new message sigs - start block v7 - time protocol - zc spend v4",
-        },
-        {
-                /*.strName =*/ "v2_dummy",
-                /*.strInfo =*/ "Placeholder for future NestEgg version 2.0 upgrade",
-        },
+          /*.strName =*/ "stake_modifier_v2",
+   /*.strInfo =*/ "new 256-bit stake modifier - start block v6",
+},
+{
+   /*.strName =*/ "time_protocol_v2",
+   /*.strInfo =*/ "new message sigs - start block v7 - time protocol - zc spend v4",
+},
+{
+   /*.strName =*/ "p2pkh_block_signatures",
+   /*.strInfo =*/ "activation of p2pkh block signatures",
+},
+{
+   /*.strName =*/ "Stake_min_depth_v2",
+   /*.strInfo =*/ "Increases the stake min depth",
+},
+{
+   /*.strName =*/ "masternode_rank_v2",
+   /*.strInfo =*/ "new masternode ranking system",
+         },
         {
                 /*.strName =*/ "Test_dummy",
                 /*.strInfo =*/ "Test dummy info",

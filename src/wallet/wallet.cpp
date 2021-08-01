@@ -1756,9 +1756,9 @@ CAmount CWallet::GetStakingBalance(const bool fIncludeColdStaking) const
 {
     return std::max(CAmount(0), loopTxsBalance(
             [fIncludeColdStaking](const uint256& id, const CWalletTx& pcoin, CAmount& nTotal) {
-        if (pcoin.IsTrusted() && 
-            pcoin.GetDepthInMainChain() 
-                >= 
+        if (pcoin.IsTrusted() &&
+            pcoin.GetDepthInMainChain()
+                >=
             (Params().GetConsensus().NetworkUpgradeActive(chainActive.Height(), Consensus::UPGRADE_STAKE_MIN_DEPTH_V2) ?
                     Params().GetConsensus().nStakeMinDepthV2 : Params().GetConsensus().nStakeMinDepth)
         ) {
@@ -2048,9 +2048,9 @@ bool CWallet::AvailableCoins(std::vector<COutput>* pCoins,      // --> populates
                 continue;
 
             // Check min depth requirement for stake inputs
-            if (nCoinType == STAKEABLE_COINS && 
-                nDepth 
-                    < 
+            if (nCoinType == STAKEABLE_COINS &&
+                nDepth
+                    <
                 (Params().GetConsensus().NetworkUpgradeActive(chainActive.Height(), Consensus::UPGRADE_STAKE_MIN_DEPTH_V2) ?
                     Params().GetConsensus().nStakeMinDepthV2 : Params().GetConsensus().nStakeMinDepth)) continue;
 
@@ -2709,7 +2709,7 @@ bool CWallet::CreateCoinStake(
     pStakerStatus->SetLastCoins((int) availableCoins->size());
 
     // P2PKH block signatures were not accepted before v5 update.
-    bool onlyP2PK = !consensus.NetworkUpgradeActive(pindexPrev->nHeight + 1, Consensus::UPGRADE_V5_DUMMY);
+    bool onlyP2PK = !consensus.NetworkUpgradeActive(pindexPrev->nHeight + 1, Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES);
 
     // Kernel Search
     CAmount nCredit;
