@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:791d2c3ebe5ba9c05eeafc62a44aad74bd46877aba1c9f1ae96a73cc2ecfa330
-size 295
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: @PACKAGE_NAME@ consensus library
+Description: Library for the Bitcoin consensus protocol.
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lbitcoinconsensus
+Cflags: -I${includedir}
+Requires.private: libcrypto

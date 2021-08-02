@@ -1,4 +1,4 @@
-Name "NestEgg Core (64-bit)"
+Name "NestEgg Core (-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -19,7 +19,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "NestEgg Core"
-!define MUI_FINISHPAGE_RUN $INSTDIR\nestegg-qt.exe
+!define MUI_FINISHPAGE_RUN $INSTDIR\nestegg-qt
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/dad/Downloads/Nests/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -27,7 +27,7 @@ SetCompressor /SOLID lzma
 # Included files
 !include Sections.nsh
 !include MUI2.nsh
-!if "64" == "64"
+!if "" == "64"
 !include x64.nsh
 !endif
 
@@ -47,8 +47,8 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/dad/Downloads/Nests/nestegg-1.5.0-win64-setup.exe
-!if "64" == "64"
+OutFile /home/dad/Downloads/Nests/nestegg-1.5.0-win-setup.exe
+!if "" == "64"
 InstallDir $PROGRAMFILES64\Pivx
 !else
 InstallDir $PROGRAMFILES\Pivx
@@ -72,12 +72,12 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/dad/Downloads/Nests/release/nestegg-qt.exe
+    File /home/dad/Downloads/Nests/release/nestegg-qt
     File /oname=COPYING.txt /home/dad/Downloads/Nests/COPYING
     File /oname=readme.txt /home/dad/Downloads/Nests/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/dad/Downloads/Nests/release/nesteggd.exe
-    File /home/dad/Downloads/Nests/release/nestegg-cli.exe
+    File /home/dad/Downloads/Nests/release/nesteggd
+    File /home/dad/Downloads/Nests/release/nestegg-cli
     SetOutPath $INSTDIR\doc
     File /r /home/dad/Downloads/Nests/doc\*.*
     SetOutPath $INSTDIR
@@ -90,8 +90,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\nestegg-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\NestEgg Core (testnet, 64-bit).lnk" "$INSTDIR\nestegg-qt.exe" "-testnet" "$INSTDIR\nestegg-qt.exe" 1
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\nestegg-qt
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\NestEgg Core (testnet, -bit).lnk" "$INSTDIR\nestegg-qt" "-testnet" "$INSTDIR\nestegg-qt" 1
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -104,8 +104,8 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "nestegg" "URL Protocol" ""
     WriteRegStr HKCR "nestegg" "" "URL:Pivx"
-    WriteRegStr HKCR "nestegg\DefaultIcon" "" $INSTDIR\nestegg-qt.exe
-    WriteRegStr HKCR "nestegg\shell\open\command" "" '"$INSTDIR\nestegg-qt.exe" "%1"'
+    WriteRegStr HKCR "nestegg\DefaultIcon" "" $INSTDIR\nestegg-qt
+    WriteRegStr HKCR "nestegg\shell\open\command" "" '"$INSTDIR\nestegg-qt" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -123,7 +123,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\nestegg-qt.exe
+    Delete /REBOOTOK $INSTDIR\nestegg-qt
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -135,7 +135,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\NestEgg Core (testnet, 64-bit).lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\NestEgg Core (testnet, -bit).lnk"
     Delete /REBOOTOK "$SMSTARTUP\Pivx.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
@@ -157,7 +157,7 @@ SectionEnd
 # Installer functions
 Function .onInit
     InitPluginsDir
-!if "64" == "64"
+!if "" == "64"
     ${If} ${RunningX64}
       ; disable registry redirection (enable access to 64-bit portion of registry)
       SetRegView 64

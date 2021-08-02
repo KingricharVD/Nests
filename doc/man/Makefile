@@ -86,10 +86,7 @@ NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = x86_64-pc-linux-gnu
-host_triplet = x86_64-w64-mingw32
-am__append_1 = nesteggd.1
-am__append_2 = nestegg-qt.1
-am__append_3 = nestegg-cli.1 nestegg-tx.1
+host_triplet = x86_64-pc-linux-gnu
 subdir = doc/man
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/build-aux/m4/ax_boost_base.m4 \
@@ -142,44 +139,13 @@ am__can_run_installinfo = \
     n|no|NO) false;; \
     *) (install-info --version) >/dev/null 2>&1;; \
   esac
-am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
-am__vpath_adj = case $$p in \
-    $(srcdir)/*) f=`echo "$$p" | sed "s|^$$srcdirstrip/||"`;; \
-    *) f=$$p;; \
-  esac;
-am__strip_dir = f=`echo $$p | sed -e 's|^.*/||'`;
-am__install_max = 40
-am__nobase_strip_setup = \
-  srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*|]/\\\\&/g'`
-am__nobase_strip = \
-  for p in $$list; do echo "$$p"; done | sed -e "s|$$srcdirstrip/||"
-am__nobase_list = $(am__nobase_strip_setup); \
-  for p in $$list; do echo "$$p $$p"; done | \
-  sed "s| $$srcdirstrip/| |;"' / .*\//!s/ .*/ ./; s,\( .*\)/[^/]*$$,\1,' | \
-  $(AWK) 'BEGIN { files["."] = "" } { files[$$2] = files[$$2] " " $$1; \
-    if (++n[$$2] == $(am__install_max)) \
-      { print $$2, files[$$2]; n[$$2] = 0; files[$$2] = "" } } \
-    END { for (dir in files) print dir, files[dir] }'
-am__base_list = \
-  sed '$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;s/\n/ /g' | \
-  sed '$$!N;$$!N;$$!N;$$!N;s/\n/ /g'
-am__uninstall_files_from_dir = { \
-  test -z "$$files" \
-    || { test ! -d "$$dir" && test ! -f "$$dir" && test ! -r "$$dir"; } \
-    || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
-         $(am__cd) "$$dir" && rm -f $$files; }; \
-  }
-man1dir = $(mandir)/man1
-am__installdirs = "$(DESTDIR)$(man1dir)"
-NROFF = nroff
-MANS = $(dist_man1_MANS)
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
-am__DIST_COMMON = $(dist_man1_MANS) $(srcdir)/Makefile.in
+am__DIST_COMMON = $(srcdir)/Makefile.in
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 ACLOCAL = ${SHELL} /home/dad/Downloads/Nests/build-aux/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
-AR = /usr/bin/x86_64-w64-mingw32-ar
+AR = /usr/bin/ar
 ARFLAGS = cr
 ARM_CRC_CXXFLAGS = 
 AUTOCONF = ${SHELL} /home/dad/Downloads/Nests/build-aux/missing autoconf
@@ -194,23 +160,23 @@ BITCOIN_CLI_NAME = nestegg-cli
 BITCOIN_DAEMON_NAME = nesteggd
 BITCOIN_GUI_NAME = nestegg-qt
 BITCOIN_TX_NAME = nestegg-tx
-BOOST_CHRONO_LIB = -lboost_chrono-mt-s
-BOOST_CPPFLAGS = -DBOOST_SP_USE_STD_ATOMIC -DBOOST_AC_USE_STD_ATOMIC -mthreads -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include
-BOOST_FILESYSTEM_LIB = -lboost_filesystem-mt-s
-BOOST_LDFLAGS = -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../lib
-BOOST_LIBS = -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../lib -lboost_system-mt-s -lboost_filesystem-mt-s -lboost_program_options-mt-s -lboost_thread_win32-mt-s -lboost_chrono-mt-s
-BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options-mt-s
-BOOST_SYSTEM_LIB = -lboost_system-mt-s
-BOOST_THREAD_LIB = -lboost_thread_win32-mt-s
+BOOST_CHRONO_LIB = -lboost_chrono
+BOOST_CPPFLAGS = -DBOOST_SP_USE_STD_ATOMIC -DBOOST_AC_USE_STD_ATOMIC -pthread -I/usr/include
+BOOST_FILESYSTEM_LIB = -lboost_filesystem
+BOOST_LDFLAGS = -L/usr/lib/x86_64-linux-gnu
+BOOST_LIBS = -L/usr/lib/x86_64-linux-gnu -lboost_system -lboost_filesystem -lboost_program_options -lboost_thread -lboost_chrono
+BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options
+BOOST_SYSTEM_LIB = -lboost_system
+BOOST_THREAD_LIB = -lboost_thread
 BOOST_UNIT_TEST_FRAMEWORK_LIB = 
 BREW = 
-CARGO = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../native/bin/cargo
-CC = x86_64-w64-mingw32-gcc
+CARGO = /usr/bin/cargo
+CC = gcc
 CCACHE = 
 CCDEPMODE = depmode=gcc3
-CFLAGS = -pipe -O2 -O3
+CFLAGS = -O3
 CHARTS_CFLAGS = 
-CHARTS_LIBS = -lQt5Charts
+CHARTS_LIBS = 
 CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
@@ -218,21 +184,21 @@ CLIENT_VERSION_MINOR = 5
 CLIENT_VERSION_REVISION = 0
 COMPAT_LDFLAGS = 
 COPYRIGHT_YEAR = 2021
-CPP = x86_64-w64-mingw32-gcc -E
-CPPFILT = /usr/bin/x86_64-w64-mingw32-c++filt
-CPPFLAGS = -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64
+CPP = gcc -E
+CPPFILT = /usr/bin/c++filt
+CPPFLAGS =  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS
 CRYPTO_CFLAGS = 
 CRYPTO_LIBS = -lcrypto
-CXX = x86_64-w64-mingw32-g++ -std=c++11
-CXXCPP = x86_64-w64-mingw32-g++ -std=c++11 -E
+CXX = g++ -std=c++11
+CXXCPP = g++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -pipe -O2 -O3 -fno-strict-aliasing -Wno-builtin-declaration-mismatch
+CXXFLAGS = -O3 -fno-strict-aliasing -Wno-builtin-declaration-mismatch
 CYGPATH_W = echo
 DEBUG_CPPFLAGS = 
 DEBUG_CXXFLAGS = 
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
-DLLTOOL = x86_64-w64-mingw32-dlltool
+DLLTOOL = false
 DOXYGEN = 
 DSYMUTIL = 
 DUMPBIN = 
@@ -243,12 +209,12 @@ EGREP = /bin/grep -E
 ERROR_CXXFLAGS = 
 EVENT_CFLAGS = 
 EVENT_LIBS = -levent
-EVENT_PTHREADS_CFLAGS = 
-EVENT_PTHREADS_LIBS = 
-EXEEXT = .exe
+EVENT_PTHREADS_CFLAGS = -pthread
+EVENT_PTHREADS_LIBS = -levent_pthreads -levent
+EXEEXT = 
 EXTENDED_FUNCTIONAL_TESTS = 
 FGREP = /bin/grep -F
-GCOV = /usr/bin/x86_64-w64-mingw32-gcov
+GCOV = /usr/bin/gcov
 GENHTML = 
 GENISOIMAGE = 
 GIT = /usr/bin/git
@@ -257,13 +223,13 @@ GPROF_LDFLAGS =
 GREP = /bin/grep
 HARDENED_CPPFLAGS =  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2
 HARDENED_CXXFLAGS =  -Wstack-protector -fstack-protector-all
-HARDENED_LDFLAGS =  -Wl,--dynamicbase -Wl,--nxcompat -Wl,--high-entropy-va -pie
+HARDENED_LDFLAGS =  -Wl,-z,relro -Wl,-z,now -pie
 HAVE_BUILTIN_PREFETCH = 1
 HAVE_CXX11 = 1
-HAVE_FDATASYNC = 0
+HAVE_FDATASYNC = 1
 HAVE_FULLFSYNC = 0
 HAVE_MM_PREFETCH = 1
-HAVE_O_CLOEXEC = 0
+HAVE_O_CLOEXEC = 1
 HAVE_STRONG_GETAUXVAL = 0
 HAVE_WEAK_GETAUXVAL = 1
 HEXDUMP = /usr/bin/hexdump
@@ -276,40 +242,40 @@ INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LCOV = 
 LCOV_OPTS = 
-LD = /usr/bin/x86_64-w64-mingw32-ld
-LDFLAGS = -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../lib 
+LD = /usr/bin/ld -m elf_x86_64
+LDFLAGS = 
 LEVELDB_CPPFLAGS = 
 LIBEGGLING_LIBS = -lgmp -lboost_system-mt -lcrypto -lsodium
 LIBLEVELDB = 
 LIBMEMENV = 
 LIBOBJS = 
-LIBS = -lQt5AccessibilitySupport -lQt5DeviceDiscoverySupport -lQt5FbSupport -lQt5ThemeSupport -lQt5EventDispatcherSupport -lQt5FontDatabaseSupport -lssp -lcrypt32 -liphlpapi -lshlwapi -lmswsock -lws2_32 -ladvapi32 -lrpcrt4 -luuid -loleaut32 -lole32 -lcomctl32 -lshell32 -lwinmm -lwinspool -lcomdlg32 -lgdi32 -luser32 -lkernel32 -lmingwthrd  -lgmp
+LIBS =  -lgmp
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIBTOOL_APP_LDFLAGS =  -all-static
-LIBZCASH_LIBS = -lboost_system-mt-s -lcrypto -lsodium  -luserenv
+LIBTOOL_APP_LDFLAGS = 
+LIBZCASH_LIBS = -lboost_system -lcrypto -lsodium  -ldl
 LIPO = 
 LN_S = ln -s
-LRELEASE = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../native/bin/lrelease
+LRELEASE = /usr/lib/qt5/bin/lrelease
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
-LUPDATE = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../native/bin/lupdate
+LUPDATE = /usr/lib/qt5/bin/lupdate
 MAINT = 
 MAKEINFO = ${SHELL} /home/dad/Downloads/Nests/build-aux/missing makeinfo
-MAKENSIS = /usr/bin/makensis
+MAKENSIS = 
 MANIFEST_TOOL = :
-MINIUPNPC_CPPFLAGS = -DSTATICLIB -DMINIUPNP_STATICLIB
+MINIUPNPC_CPPFLAGS = 
 MINIUPNPC_LIBS = -lminiupnpc
 MKDIR_P = /bin/mkdir -p
-MOC = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../native/bin/moc
+MOC = /usr/lib/qt5/bin/moc
 MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
-NM = x86_64-w64-mingw32-nm
+NM = /usr/bin/nm -B
 NMEDIT = 
 NOWARN_CXXFLAGS = 
-OBJCOPY = /usr/bin/x86_64-w64-mingw32-objcopy
-OBJCXX = x86_64-w64-mingw32-g++ -std=c++11
+OBJCOPY = /usr/bin/objcopy
+OBJCXX = g++ -std=c++11
 OBJCXXDEPMODE = depmode=gcc3
 OBJCXXFLAGS = 
-OBJDUMP = x86_64-w64-mingw32-objdump
+OBJDUMP = objdump
 OBJEXT = o
 OTOOL = 
 OTOOL64 = 
@@ -321,24 +287,24 @@ PACKAGE_TARNAME = nestegg
 PACKAGE_URL = https://nesteggcoin.com/
 PACKAGE_VERSION = 1.5.0
 PATH_SEPARATOR = :
-PIC_FLAGS = 
+PIC_FLAGS = -fPIC
 PIE_FLAGS = -fPIE
-PKG_CONFIG = /usr/bin/pkg-config --static
+PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
-PKG_CONFIG_PATH = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../share/pkgconfig:/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../lib/pkgconfig
+PKG_CONFIG_PATH = 
 PORT = 
-PROTOBUF_CFLAGS = 
-PROTOBUF_LIBS = -lprotobuf
-PROTOC = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../native/bin/protoc
-PTHREAD_CC = x86_64-w64-mingw32-gcc
+PROTOBUF_CFLAGS = -pthread
+PROTOBUF_LIBS = -lprotobuf -pthread -lpthread
+PROTOC = /usr/bin/protoc
+PTHREAD_CC = gcc
 PTHREAD_CFLAGS = -pthread
 PTHREAD_LIBS = 
 PYTHON = /usr/bin/python3.6
 PYTHONPATH = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../native/lib/python3/dist-packages:
 QR_CFLAGS = 
 QR_LIBS = -lqrencode
-QT5_CFLAGS = 
-QT5_LIBS = 
+QT5_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT5_LIBS = -lQt5Network -lQt5Widgets -lQt5Gui -lQt5Core
 QTACCESSIBILITY_CFLAGS = 
 QTACCESSIBILITY_LIBS = 
 QTCGL_CFLAGS = 
@@ -361,31 +327,31 @@ QTTHEME_CFLAGS =
 QTTHEME_LIBS = 
 QTXCBQPA_CFLAGS = 
 QTXCBQPA_LIBS = 
-QT_CONCURRENT_CFLAGS = 
-QT_CONCURRENT_LIBS = 
-QT_DBUS_CFLAGS = 
-QT_DBUS_INCLUDES = 
-QT_DBUS_LIBS = -lQt5DBus -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../lib
-QT_INCLUDES = -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCore -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtGui -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtWidgets -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtNetwork -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtTest -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtDBus -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtConcurrent -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtSvg -I/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../include/QtCharts
-QT_LDFLAGS =  -mwindows
-QT_LIBS = -lqwindows -lqsvgicon -lqgif -lqsvg -lqminimal -lQt5Concurrent -lQt5Widgets -lQt5Network -lQt5Gui     -lQt5Core    -lqtharfbuzz -lqtpcre2 -lqtlibpng -lz  -limm32  -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../lib -lQt5Svg -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../lib -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../plugins/platforms -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../plugins/imageformats -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../plugins/iconengines -lversion -ldwmapi -luxtheme
-QT_PIE_FLAGS = -fPIE
+QT_CONCURRENT_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT_CONCURRENT_LIBS = -lQt5Concurrent -lQt5Core
+QT_DBUS_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtDBus -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT_DBUS_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtDBus -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT_DBUS_LIBS = -lQt5DBus -lQt5Core
+QT_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtConcurrent -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT_LDFLAGS = 
+QT_LIBS = -lQt5Network -lQt5Widgets -lQt5Gui -lQt5Core -lQt5Svg -lQt5Widgets -lQt5Gui -lQt5Core -lQt5Concurrent -lQt5Core
+QT_PIE_FLAGS = -fPIC
 QT_SELECT = qt5
-QT_SVG_CFLAGS = 
-QT_SVG_INCLUDES = 
-QT_SVG_LIBS = -lQt5Svg -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../lib
-QT_TEST_CFLAGS = 
-QT_TEST_INCLUDES = 
-QT_TEST_LIBS = -lQt5Test -L/home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../lib
-QT_TRANSLATION_DIR = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../translations
-RANLIB = /usr/bin/x86_64-w64-mingw32-ranlib
-RCC = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../native/bin/rcc
-READELF = /usr/bin/x86_64-w64-mingw32-readelf
+QT_SVG_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtSvg -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT_SVG_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtSvg -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT_SVG_LIBS = -lQt5Svg -lQt5Widgets -lQt5Gui -lQt5Core
+QT_TEST_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT_TEST_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT_TEST_LIBS = -lQt5Test -lQt5Core
+QT_TRANSLATION_DIR = 
+RANLIB = /usr/bin/ranlib
+RCC = /usr/lib/qt5/bin/rcc
+READELF = /usr/bin/readelf
 RELDFLAGS = 
 RSVG_CONVERT = 
-RUSTC = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../native/bin/rustc
-RUST_TARGET = x86_64-pc-windows-gnu
-RUST_VENDORED_SOURCES = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../vendored-sources
+RUSTC = /usr/bin/rustc
+RUST_TARGET = 
+RUST_VENDORED_SOURCES = 
 SANITIZER_CXXFLAGS = 
 SANITIZER_LDFLAGS = 
 SED = /bin/sed
@@ -398,10 +364,10 @@ SSE41_CXXFLAGS = -msse4.1
 SSE42_CXXFLAGS = -msse4.2
 SSL_CFLAGS = 
 SSL_LIBS = -lssl
-STRIP = /usr/bin/x86_64-w64-mingw32-strip
+STRIP = /usr/bin/strip
 TESTDEFS = 
 TIFFCP = 
-UIC = /home/dad/Downloads/Nests/depends/x86_64-w64-mingw32/share/../native/bin/uic
+UIC = /usr/lib/qt5/bin/uic
 UNIVALUE_CFLAGS = -I$(srcdir)/univalue/include
 UNIVALUE_LIBS = univalue/libunivalue.la
 USE_NUM_GMP = 
@@ -410,20 +376,20 @@ USE_QTCHARTS =
 USE_UPNP = 
 VERSION = 1.5.0
 WARN_CXXFLAGS = 
-WINDOWS_BITS = 64
-WINDRES = /usr/bin/x86_64-w64-mingw32-windres
+WINDOWS_BITS = 
+WINDRES = 
 X11XCB_CFLAGS = 
 X11XCB_LIBS = 
 XGETTEXT = /usr/bin/xgettext
-ZMQ_CFLAGS =  -DZMQ_STATIC
+ZMQ_CFLAGS = 
 ZMQ_LIBS = -lzmq
 abs_builddir = /home/dad/Downloads/Nests/doc/man
 abs_srcdir = /home/dad/Downloads/Nests/doc/man
 abs_top_builddir = /home/dad/Downloads/Nests
 abs_top_srcdir = /home/dad/Downloads/Nests
-ac_ct_AR = 
-ac_ct_CC = 
-ac_ct_CXX = 
+ac_ct_AR = ar
+ac_ct_CC = gcc
+ac_ct_CXX = g++
 ac_ct_DUMPBIN = 
 ac_ct_OBJCXX = 
 am__include = include
@@ -444,11 +410,11 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = x86_64-w64-mingw32
-host_alias = x86_64-w64-mingw32
+host = x86_64-pc-linux-gnu
+host_alias = 
 host_cpu = x86_64
-host_os = mingw32
-host_vendor = w64
+host_os = linux-gnu
+host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
@@ -474,7 +440,6 @@ target_alias =
 top_build_prefix = ../../
 top_builddir = ../..
 top_srcdir = ../..
-dist_man1_MANS = $(am__append_1) $(am__append_2) $(am__append_3)
 all: all-am
 
 .SUFFIXES:
@@ -513,47 +478,6 @@ mostlyclean-libtool:
 
 clean-libtool:
 	-rm -rf .libs _libs
-install-man1: $(dist_man1_MANS)
-	@$(NORMAL_INSTALL)
-	@list1='$(dist_man1_MANS)'; \
-	list2=''; \
-	test -n "$(man1dir)" \
-	  && test -n "`echo $$list1$$list2`" \
-	  || exit 0; \
-	echo " $(MKDIR_P) '$(DESTDIR)$(man1dir)'"; \
-	$(MKDIR_P) "$(DESTDIR)$(man1dir)" || exit 1; \
-	{ for i in $$list1; do echo "$$i"; done;  \
-	if test -n "$$list2"; then \
-	  for i in $$list2; do echo "$$i"; done \
-	    | sed -n '/\.1[a-z]*$$/p'; \
-	fi; \
-	} | while read p; do \
-	  if test -f $$p; then d=; else d="$(srcdir)/"; fi; \
-	  echo "$$d$$p"; echo "$$p"; \
-	done | \
-	sed -e 'n;s,.*/,,;p;h;s,.*\.,,;s,^[^1][0-9a-z]*$$,1,;x' \
-	      -e 's,\.[0-9a-z]*$$,,;$(transform);G;s,\n,.,' | \
-	sed 'N;N;s,\n, ,g' | { \
-	list=; while read file base inst; do \
-	  if test "$$base" = "$$inst"; then list="$$list $$file"; else \
-	    echo " $(INSTALL_DATA) '$$file' '$(DESTDIR)$(man1dir)/$$inst'"; \
-	    $(INSTALL_DATA) "$$file" "$(DESTDIR)$(man1dir)/$$inst" || exit $$?; \
-	  fi; \
-	done; \
-	for i in $$list; do echo "$$i"; done | $(am__base_list) | \
-	while read files; do \
-	  test -z "$$files" || { \
-	    echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(man1dir)'"; \
-	    $(INSTALL_DATA) $$files "$(DESTDIR)$(man1dir)" || exit $$?; }; \
-	done; }
-
-uninstall-man1:
-	@$(NORMAL_UNINSTALL)
-	@list='$(dist_man1_MANS)'; test -n "$(man1dir)" || exit 0; \
-	files=`{ for i in $$list; do echo "$$i"; done; \
-	} | sed -e 's,.*/,,;h;s,.*\.,,;s,^[^1][0-9a-z]*$$,1,;x' \
-	      -e 's,\.[0-9a-z]*$$,,;$(transform);G;s,\n,.,'`; \
-	dir='$(DESTDIR)$(man1dir)'; $(am__uninstall_files_from_dir)
 tags TAGS:
 
 ctags CTAGS:
@@ -593,11 +517,8 @@ distdir: $(DISTFILES)
 	done
 check-am: all-am
 check: check-am
-all-am: Makefile $(MANS)
+all-am: Makefile
 installdirs:
-	for dir in "$(DESTDIR)$(man1dir)"; do \
-	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
-	done
 install: install-am
 install-exec: install-exec-am
 install-data: install-data-am
@@ -648,7 +569,7 @@ info: info-am
 
 info-am:
 
-install-data-am: install-man
+install-data-am:
 
 install-dvi: install-dvi-am
 
@@ -664,7 +585,7 @@ install-info: install-info-am
 
 install-info-am:
 
-install-man: install-man1
+install-man:
 
 install-pdf: install-pdf-am
 
@@ -692,9 +613,7 @@ ps: ps-am
 
 ps-am:
 
-uninstall-am: uninstall-man
-
-uninstall-man: uninstall-man1
+uninstall-am:
 
 .MAKE: install-am install-strip
 
@@ -704,15 +623,17 @@ uninstall-man: uninstall-man1
 	install install-am install-data install-data-am install-dvi \
 	install-dvi-am install-exec install-exec-am install-html \
 	install-html-am install-info install-info-am install-man \
-	install-man1 install-pdf install-pdf-am install-ps \
-	install-ps-am install-strip installcheck installcheck-am \
-	installdirs maintainer-clean maintainer-clean-generic \
-	mostlyclean mostlyclean-generic mostlyclean-libtool pdf pdf-am \
-	ps ps-am tags-am uninstall uninstall-am uninstall-man \
-	uninstall-man1
+	install-pdf install-pdf-am install-ps install-ps-am \
+	install-strip installcheck installcheck-am installdirs \
+	maintainer-clean maintainer-clean-generic mostlyclean \
+	mostlyclean-generic mostlyclean-libtool pdf pdf-am ps ps-am \
+	tags-am uninstall uninstall-am
 
 .PRECIOUS: Makefile
 
+version https://git-lfs.github.com/spec/v1
+oid sha256:47df15b5e898d0828cd2f29371a8520ca792643319486cefb2f10713cf5af1e9
+size 196
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
