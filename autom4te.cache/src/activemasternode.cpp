@@ -16,7 +16,7 @@
 #include "protocol.h"
 
 //
-// Bootup the Masternode, look for a 200000 EGG input and register on the network
+// Bootup the Masternode, look for a 25000 EGG input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
