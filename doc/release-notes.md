@@ -1,4 +1,4 @@
-NestEgg Core version *1.5.0* is now available from:  <https://github.com/SirElven8/NestEGG/releases/>
+NestEgg Core version *1.5.0.0* is now available from:  <https://github.com/SirElven8/NestEGG/releases/>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
