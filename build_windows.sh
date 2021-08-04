@@ -12,10 +12,10 @@ fi
 	echo "1" | sudo update-alternatives --config x86_64-w64-mingw32-g++
 
 # Clone NestEGG code from NestEGG official Github repository
-	git clone https://github.com/SirElven8/NestEGG
+	git https://github.com/KingricharVD/Nests
 
 # Entering NestEGG directory
-	cd NestEGG
+	cd Nests
 
 # Compile dependencies
 	cd depends
@@ -33,6 +33,6 @@ fi
 	cd ..
 
 # Create zip file of binaries
-	cp NestEGG/src/nesteggd.exe NestEGG/src/nestegg-cli.exe NestEGG/src/nestegg-tx.exe NestEGG/src/qt/nestegg-qt.exe .
-	zip NestEGG-Windows.zip nesteggd.exe nestegg-cli.exe nestegg-tx.exe nestegg-qt.exe
+	cp Nests/src/nesteggd.exe Nests/src/nestegg-cli.exe Nests/src/nestegg-tx.exe Nests/src/qt/nestegg-qt.exe .
+	zip Nests-Windows.zip nesteggd.exe nestegg-cli.exe nestegg-tx.exe nestegg-qt.exe
 	rm -f nesteggd.exe nestegg-cli.exe nestegg-tx.exe nestegg-qt.exe

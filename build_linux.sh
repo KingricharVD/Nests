@@ -11,10 +11,10 @@ fi
 	sudo apt install git zip unzip build-essential libtool bsdmainutils autotools-dev autoconf pkg-config automake python3 libqt5svg5-dev -y
 
 # Clone NestEGG code from NestEGG official Github repository
-	git https://github.com/SirElven8/NestEGG/
+	git https://github.com/KingricharVD/Nests
 
 # Entering NestEGG directory
-	cd NestEGG
+	cd Nests
 
 # Compile dependencies
 	cd depends
@@ -32,6 +32,6 @@ fi
 	cd ..
 
 # Create zip file of binaries
-	cp NestEGG/src/nesteggd NestEGG/src/nestegg-cli NestEGG/src/nestegg-tx NestEGG/src/qt/nestegg-qt .
-	zip NestEGG-Linux.zip nesteggd nestegg-cli nestegg-tx nestegg-qt
+	cp Nests/src/nesteggd Nests/src/nestegg-cli Nests/src/nestegg-tx Nests/src/qt/nestegg-qt .
+	zip Nests-Linux.zip nesteggd nestegg-cli nestegg-tx nestegg-qt
 	rm -f nesteggd nestegg-cli nestegg-tx nestegg-qt

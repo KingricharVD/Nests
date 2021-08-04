@@ -71,14 +71,14 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (1, uint256("0000069cf442a5cb235d70efb63234a48686cb40595b65b66f55e41812d63cb5"))
-    (522199, uint256("e297deaa619a20e6be5bf7a465d7554d9cbeac283536c822876068c335633432"));
-   
+    (1, uint256("0000069cf442a5cb235d70efb63234a48686cb40595b65b66f55e41812d63cb5"));
+
+
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1611841695, // * UNIX timestamp of last checkpoint block
-    522199,    // * total number of transactions between genesis and last checkpoint
+    1,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the UpdateTip debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -140,17 +140,17 @@ public:
 		//TODO: Create a new spork key pair for security.
         consensus.strSporkPubKey = "0461ccb471a2c9027c06a6e9b06e593949b8a5a71ec86e0c4a4acc86c045b17a28fe3a063076075244f950660ae8b12b6ac82f10a653365b26333f2b3e84ea2cb8";
         consensus.strSporkPubKeyOld = "043969b1b0e6f327de37f297a015d37e2235eaaeeb3933deecd8162c075cee0207b13537618bde640879606001a8136091c62ec272dd0133424a178704e6e75bb7";
-        consensus.nTime_EnforceNewSporkKey = 1627142400;    //!> Date and time (GMT): Saturday, July 24, 2021 4:00:00 PM
+        consensus.nTime_EnforceNewSporkKey = 1629216000;    //!> Date and time (GMT): Tuesday 17, 2021 4:00:00 PM
         consensus.nTime_RejectOldSporkKey = 1556165178;     //!> September 26, 2019 11:00:00 PM GMT
 
         // height-based activations
         consensus.height_last_ZC_AccumCheckpoint    = disabled;
-        consensus.height_last_ZC_WrappedSerials     = disabled; 
-        consensus.height_start_InvalidUTXOsCheck    = disabled; 
-        consensus.height_start_ZC_InvalidSerials    = disabled; 
+        consensus.height_last_ZC_WrappedSerials     = disabled;
+        consensus.height_start_InvalidUTXOsCheck    = disabled;
+        consensus.height_start_ZC_InvalidSerials    = disabled;
         consensus.height_start_ZC_SerialRangeCheck  = disabled;
         consensus.height_ZC_RecalcAccumulators      = disabled;
-   
+
 
         // Zerocoin-related params
         consensus.ZC_Modulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
@@ -253,7 +253,7 @@ public:
         genesis = CreateGenesisBlock(1593067522, 22333198, 0x1e0ffff0, 1, 100 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x000000fe0f6f6f7f005bb1373daebbff98b69a2c2376efb7ea9b86ce4bea7d72"));
-        
+
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // NestEgg starting difficulty is 1 / 2^12
         consensus.posLimitV1 = ~UINT256_ZERO >> 24;
@@ -279,14 +279,14 @@ public:
 		//TODO: Create a new spork key pair for security.
         consensus.strSporkPubKey = "04859410102e3c97aedb88803d50f31a6a06c300531a9a6f9ccea78a7b33dbc9593c9639ad56792290d318fdc6c168c4354d404e450cbb264b7c8c1645ca94dddd";
         consensus.strSporkPubKeyOld = "04d45416e4a64b1b051e2a2ebd80ced5efe148cf5fbcb70e56860957675a2da1a21fd522c42c1ed18a1ec42641589a09cf3f58678d213825dc21798183a005a984";
-        consensus.nTime_EnforceNewSporkKey = 1627142400;    //!> Date and time (GMT): Saturday, July 24, 2021 4:00:00 PM
+        consensus.nTime_EnforceNewSporkKey = 1629216000;    //!> Date and time (GMT): Tuesday 17, 2021 4:00:00 PM
         consensus.nTime_RejectOldSporkKey = 1556165178;     //!> September 26, 2019 11:00:00 PM GMT
 
         // height based activations
         consensus.height_last_ZC_AccumCheckpoint    = disabled;
-        consensus.height_last_ZC_WrappedSerials     = disabled; 
-        consensus.height_start_InvalidUTXOsCheck    = disabled; 
-        consensus.height_start_ZC_InvalidSerials    = disabled; 
+        consensus.height_last_ZC_WrappedSerials     = disabled;
+        consensus.height_start_InvalidUTXOsCheck    = disabled;
+        consensus.height_start_ZC_InvalidSerials    = disabled;
         consensus.height_start_ZC_SerialRangeCheck  = disabled;
         consensus.height_ZC_RecalcAccumulators      = disabled;
 
@@ -335,7 +335,7 @@ public:
         consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].nActivationHeight          =
                 Consensus::NetworkUpgrade::ALWAYS_ACTIVE;
         consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].nActivationHeight       = 300;
-        
+
         /**
          * The message start string is designed to be unlikely to occur in normal data.
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
@@ -404,7 +404,7 @@ public:
         genesis = CreateGenesisBlock(1593067522, 22333198, 0x1effffff, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         //assert(consensus.hashGenesisBlock == uint256S("0x000000fe0f6f6f7f005bb1373daebbff98b69a2c2376efb7ea9b86ce4bea7d72"));
-        
+
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // NestEgg starting difficulty is 1 / 2^12
         consensus.posLimitV1 = ~UINT256_ZERO >> 24;
