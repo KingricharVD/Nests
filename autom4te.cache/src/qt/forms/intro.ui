@@ -101,7 +101,7 @@
                <string notr="true">QLabel { font-style:italic; }</string>
               </property>
               <property name="text">
-               <string>Welcome to NestEgg Core.</string>
+               <string>Welcome to NestEgg Core V1.5.0.0.</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
