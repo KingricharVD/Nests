@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5fb01468b42bde2d3bf59c2e885d2f84bd3777ee00cfc3b8722ab5a9110f271f
-size 776
+// Copyright (c) 2017-2019 The PIVX developers
+// Copyright (c) 2020-2021 The NestEgg Core Developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef PIVX_CSPORKDB_H
+#define PIVX_CSPORKDB_H
+
+#include "fs.h"
+#include "dbwrapper.h"
+#include "spork.h"
+
+class CSporkDB : public CDBWrapper
+{
+public:
+    CSporkDB(size_t nCacheSize, bool fMemory = false, bool fWipe = false);
+
+private:
+    CSporkDB(const CSporkDB&);
+    void operator=(const CSporkDB&);
+
+public:
+    bool WriteSpork(const SporkId nSporkId, const CSporkMessage& spork);
+    bool ReadSpork(const SporkId nSporkId, CSporkMessage& spork);
+    bool SporkExists(const SporkId nSporkId);
+};
+
+
+#endif //PIVX_CSPORKDB_H

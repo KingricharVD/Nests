@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9a28fe49c46f28a69d6a8696313892711f91d643ea56b68c67a22e66181873e8
-size 350
+// Copyright (c) 2013-2014 The Bitcoin developers
+// Copyright (c) 2020-2021 The NestEgg Core Developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef BITCOIN_NOUI_H
+#define BITCOIN_NOUI_H
+
+extern void noui_connect();
+
+#endif // BITCOIN_NOUI_H

@@ -1,3 +1,47 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:95e6b15b5385214db2e6a826dbe24d36b47b1d069ae229095ef302c86e191dce
-size 1242
+// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2020-2021 The NestEgg Core Developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef PIVX_ADDRESSBOOK_H
+#define PIVX_ADDRESSBOOK_H
+
+#include <map>
+#include <string>
+
+namespace AddressBook {
+
+    namespace AddressBookPurpose {
+        extern const std::string UNKNOWN;
+        extern const std::string RECEIVE;
+        extern const std::string SEND;
+        extern const std::string DELEGABLE;
+        extern const std::string DELEGATOR;
+        extern const std::string COLD_STAKING;
+        extern const std::string COLD_STAKING_SEND;
+    }
+
+    bool IsColdStakingPurpose(const std::string& purpose);
+
+/** Address book data */
+    class CAddressBookData {
+    public:
+
+        std::string name;
+        std::string purpose;
+
+        CAddressBookData() {
+            purpose = AddressBook::AddressBookPurpose::UNKNOWN;
+        }
+
+        typedef std::map<std::string, std::string> StringMap;
+        StringMap destdata;
+
+        bool isSendColdStakingPurpose() const;
+        bool isSendPurpose() const;
+        bool isReceivePurpose() const;
+    };
+
+}
+
+#endif //PIVX_ADDRESSBOOK_H

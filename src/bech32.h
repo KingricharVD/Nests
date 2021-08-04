@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0b615b847994074067dd9f8ced447e5b7f9141f5167d81a0e757414b10d18790
-size 1001
+// Copyright (c) 2017 Pieter Wuille
+// Copyright (c) 2020-2021 The NestEgg Core Developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or https://www.opensource.org/licenses/mit-license.php.
+
+// Bech32 is a string encoding format used in newer address types.
+// The output consists of a human-readable part (alphanumeric), a
+// separator character (1), and a base32 data section, the last
+// 6 characters of which are a checksum.
+//
+// For more information, see BIP 173.
+#ifndef BITCOIN_BECH32_H
+#define BITCOIN_BECH32_H
+
+#include <stdint.h>
+#include <string>
+#include <vector>
+
+namespace bech32
+{
+
+/** Encode a Bech32 string. Returns the empty string in case of failure. */
+std::string Encode(const std::string& hrp, const std::vector<uint8_t>& values);
+
+/** Decode a Bech32 string. Returns (hrp, data). Empty hrp means failure. */
+std::pair<std::string, std::vector<uint8_t>> Decode(const std::string& str);
+
+} // namespace bech32
+
+#endif // BITCOIN_BECH32_H

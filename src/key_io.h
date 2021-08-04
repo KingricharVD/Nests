@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a6c9d1ba90c67ed81afdef82dffbd77d6b96faa071d18e36b2985ff96413be1b
-size 696
+// Copyright (c) 2009-2010 Satoshi Nakamoto
+// Copyright (c) 2009-2018 The Bitcoin Core developers
+// Copyright (c) 2020-2021 The NestEgg Core Developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef PIVX_KEY_IO_H
+#define PIVX_KEY_IO_H
+
+#include "chainparams.h"
+#include "key.h"
+#include "pubkey.h"
+#include "script/standard.h"
+
+#include <string>
+
+namespace KeyIO {
+
+    CKey DecodeSecret(const std::string &str);
+
+    std::string EncodeSecret(const CKey &key);
+
+    CExtKey DecodeExtKey(const std::string &str);
+
+    std::string EncodeExtKey(const CExtKey &extkey);
+
+}
+
+#endif //PIVX_KEY_IO_H

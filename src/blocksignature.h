@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c4254c69be5d883247c4d174d9d9a348bc480a318fbc295c5abe3084d68033c
-size 589
+// Copyright (c) 2017-2019 The PIVX developers
+// Copyright (c) 2020-2021 The NestEgg Core Developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef PIVX_BLOCKSIGNATURE_H
+#define PIVX_BLOCKSIGNATURE_H
+
+#include "key.h"
+#include "primitives/block.h"
+#include "keystore.h"
+
+bool SignBlockWithKey(CBlock& block, const CKey& key);
+bool SignBlock(CBlock& block, const CKeyStore& keystore);
+bool CheckBlockSignature(const CBlock& block, const bool enableP2PKH);
+
+#endif //PIVX_BLOCKSIGNATURE_H

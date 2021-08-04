@@ -1,3 +1,46 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59942b281b918347cba7d00c8910420cfa96d14946fa59a4738f487d18832eb5
-size 1282
+// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2017-2020 The PIVX developers
+// Copyright (c) 2020-2021 The NestEgg Core Developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef BITCOIN_CHECKPOINTS_H
+#define BITCOIN_CHECKPOINTS_H
+
+#include "uint256.h"
+
+#include <map>
+
+class CBlockIndex;
+
+/** 
+ * Block-chain checkpoints are compiled-in sanity checks.
+ * They are updated every release or three.
+ */
+namespace Checkpoints
+{
+typedef std::map<int, uint256> MapCheckpoints;
+
+struct CCheckpointData {
+    const MapCheckpoints* mapCheckpoints;
+    int64_t nTimeLastCheckpoint;
+    int64_t nTransactionsLastCheckpoint;
+    double fTransactionsPerDay;
+};
+
+//! Returns true if block passes checkpoint checks
+bool CheckBlock(int nHeight, const uint256& hash, bool fMatchesCheckpoint = false);
+
+//! Return conservative estimate of total number of blocks, 0 if unknown
+int GetTotalBlocksEstimate();
+
+//! Returns last CBlockIndex* in mapBlockIndex that is a checkpoint
+CBlockIndex* GetLastCheckpoint();
+
+double GuessVerificationProgress(const CBlockIndex* pindex, bool fSigchecks = true);
+
+extern bool fEnabled;
+
+} //namespace Checkpoints
+
+#endif // BITCOIN_CHECKPOINTS_H

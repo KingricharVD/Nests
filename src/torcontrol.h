@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d4f605e2f2a2fb381a84ec766fec8394cead19d64cf2d11f3f41689bff6877dd
-size 728
+// Copyright (c) 2015-2017 The Bitcoin Core developers
+// Copyright (c) 2017-2019 The PIVX developers
+// Copyright (c) 2020-2021 The NestEgg Core Developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+/**
+ * Functionality for communicating with Tor.
+ */
+#ifndef BITCOIN_TORCONTROL_H
+#define BITCOIN_TORCONTROL_H
+
+#include <string>
+
+#include <boost/chrono/chrono.hpp>
+#include <boost/thread.hpp>
+
+extern const std::string DEFAULT_TOR_CONTROL;
+static const bool DEFAULT_LISTEN_ONION = true;
+
+void StartTorControl(boost::thread_group& threadGroup);
+void InterruptTorControl();
+void StopTorControl();
+
+#endif /* BITCOIN_TORCONTROL_H */

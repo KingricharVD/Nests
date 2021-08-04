@@ -1,3 +1,38 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b753fe1b806238e58716b69e0f14b06f742cecec73c170799c293afa3a912527
-size 888
+// Copyright (c) 2015 The Bitcoin Core developers
+// Copyright (c) 2020-2021 The NestEgg Core Developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef BITCOIN_HTTPRPC_H
+#define BITCOIN_HTTPRPC_H
+
+#include <string>
+#include <map>
+
+class HTTPRequest;
+
+/** Start HTTP RPC subsystem.
+ * Precondition; HTTP and RPC has been started.
+ */
+bool StartHTTPRPC();
+/** Interrupt HTTP RPC subsystem.
+ */
+void InterruptHTTPRPC();
+/** Stop HTTP RPC subsystem.
+ * Precondition; HTTP and RPC has been stopped.
+ */
+void StopHTTPRPC();
+
+/** Start HTTP REST subsystem.
+ * Precondition; HTTP and RPC has been started.
+ */
+bool StartREST();
+/** Interrupt RPC REST subsystem.
+ */
+void InterruptREST();
+/** Stop HTTP REST subsystem.
+ * Precondition; HTTP and RPC has been stopped.
+ */
+void StopREST();
+
+#endif
