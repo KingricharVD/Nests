@@ -340,7 +340,7 @@
 #define PACKAGE_NAME "NestEgg Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "NestEgg Core 1.5.0.0"
+#define PACKAGE_STRING "NestEgg Core 1.5.0"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "nestegg"
@@ -349,7 +349,7 @@
 #define PACKAGE_URL "https://nesteggcoin.com/"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.5.0.0"
+#define PACKAGE_VERSION "1.5.0"
 
 /* Path to the zk params dir during unit tests on windows */
 #define PARAMS_DIR ""

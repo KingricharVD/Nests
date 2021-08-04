@@ -20,10 +20,10 @@
   <string>1.5.0.0, Copyright © 2009-2021 The Bitcoin Core developers, 2014-2021 The Dash Core developers, 2015-2021 The PIVX Core developers, 2020-2021 NestEgg Core developers</string>
 
   <key>CFBundleShortVersionString</key>
-  <string>1.5.0.0</string>
+  <string>1.5.0</string>
 
   <key>CFBundleVersion</key>
-  <string>1.5.0.0</string>
+  <string>1.5.0</string>
 
   <key>CFBundleSignature</key>
   <string>????</string>
